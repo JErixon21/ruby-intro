@@ -6,14 +6,45 @@
 
 # Numbers
 
+ puts 5 + 2
+
 # Non-numbers
+puts "Hello, world!"
+puts "Tacos are" + " delish"
+puts "tacos:" + 3.to_s
 
 # True, False
+puts true
+puts false
 
 # Nothing
+puts nil
 
 # Variables
+x = 10
+y = 3
 
+puts x * y
+
+food = "tacos"
+quantity = 3
+
+puts food * quantity
 # Combine strings and variables
 
+first_name = "Jake"
+greeting = "Hello, #{first_name}"
+
+puts greeting
+puts "#{food}: #{quantity}"
+
 # String manipulation
+
+puts "Hello".length
+puts "how are you today?".capitalize
+puts "computer".reverse
+
+creed = "This IS The Way"
+puts creed.upcase
+puts creed.downcase
+puts creed.swapcase

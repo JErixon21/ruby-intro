@@ -4,6 +4,12 @@
 
 # Hashes are lists of *key-value pairs*
 
+array = []
+ben = { "name" => "Ben", "location" => "Chicago", "status" => "Teaching ENTR-924 at Kellogg }
+
 # Accessing data from the hash
+
+name = ben["name"]
+puts name
 
 # More Complex Hashes
